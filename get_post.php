@@ -1,7 +1,24 @@
 <?php
+    
     if(isset( $_GET['name'])){
-        echo $_GET['name'];
+        // print_r($_GET);
+        $name = htmlentities($_GET['name']);
+        echo $name;
     }
+    /*
+    if(isset( $_POST['name'])){
+        print_r($_POST);
+        $name = htmlentities($_POST['name']);
+        echo $name;
+    }
+    
+    if(isset( $_REQUEST['name'])){
+        // print_r($_REQUEST);
+        $name = htmlentities($_REQUEST['name']);
+        echo $name;
+    }
+    echo $_SERVER['QUERY_STRING'];
+     */
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,6 +41,17 @@
             </div>
             <input type="submit" value="Submit">
         </form>
-    </div>
+        <ul>
+            <li>
+                <a href="get_post.php?name=Falah">Falah</a>
+            </li>
+            <li>
+                <a href="get_post.php?name=Satria">Satria</a>
+            </li>
+        </ul>
+        <h1>
+            <?php echo "{$name}'s Profile"; ?> 
+        </h1>
+        </div>
 </body>
 </html>
