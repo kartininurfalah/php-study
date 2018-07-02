@@ -44,7 +44,5 @@
 
     addTen($myNum);
     echo "Value: $myNum<br>";
-    
-    addSeven($myNum);
-    echo "Value: $myNum<br>";
+   
 ?>
