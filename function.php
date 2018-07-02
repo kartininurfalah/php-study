@@ -35,10 +35,16 @@
     function addTen(&$num){
         $num += 10;
     }
+    function addSeven(&$num){
+        $num += 7;
+    }
 
     addFive($myNum);
     echo "Value: $myNum<br>";
 
     addTen($myNum);
+    echo "Value: $myNum<br>";
+    
+    addSeven($myNum);
     echo "Value: $myNum<br>";
 ?>
