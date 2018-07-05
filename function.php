@@ -38,6 +38,9 @@
     function addSeven(&$num){
         $num += 7;
     }
+    function addTwo(&$num){
+        $num += 2;
+    }
 
     addFive($myNum);
     echo "Value: $myNum<br>";
