@@ -47,5 +47,8 @@
 
     addTen($myNum);
     echo "Value: $myNum<br>";
+
+    addTwo($myNum);
+    echo "Value: $myNum<br>";
    
 ?>
