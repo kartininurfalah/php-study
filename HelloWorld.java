@@ -6,6 +6,7 @@ public class HelloWorld {
         System.out.println("Hello Falah");
         System.out.println("Kartini Nurfalah");
         System.out.println("Telkom Indonesia");
+        System.out.println("Berhasil");
     }
 
 }
